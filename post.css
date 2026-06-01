@@ -1,0 +1,95 @@
+.demo{
+    position: relative; top: 20px;
+}
+.m9{
+    display: flex;
+    justify-content: end;
+    position: relative; right: 30px;
+}
+#as{
+    position: relative; right: 15px;
+}
+#ques{
+    position: relative;
+    bottom: 5px; right: 15px;
+}
+#jug{
+    position: relative; right: 90px;
+}
+.a1{
+    font-size: 50px;
+    text-decoration: none;
+}
+.a4{
+    border-radius: 200px;
+    position: relative; top: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
+#did{
+    font-size: 60px;
+}
+.class{
+    display: flex;
+    justify-content: center;
+}
+.u84{
+    display: flex;
+    justify-content: center;
+}
+#g3{
+    border-radius: 300px;
+}
+#h7{
+    display: flex;
+    justify-content: center;
+}
+#is{
+    position: relative;
+    top: 50px;
+}
+#ok{
+    border-radius: 200px;
+}
+#hiii{
+    position: relative;
+    bottom: 130px; left: 150px;
+}
+#j7{
+    display: flex;
+    justify-content: center;
+}
+.k3{
+    height: 200px; width: 1000px;
+    border: 2px solid black;
+}
+.b2{
+    height: 50px; width: 495px;
+    border: 2px solid black;
+}
+.y4{
+    display: flex;
+    justify-content: center;
+}
+#z9{
+    position: relative;
+    right: 290px;
+}
+#z8{
+    position: relative;
+    bottom: 25px; left: 0px;
+}
+.t6{
+    background-color: burlywood;
+}
+.t6:hover{
+    background-color: white;
+}
+#us{
+    display: flex;
+    justify-content: center;
+}
+#hi89{
+    position: relative; bottom: 40px; left: 70pc;
+}

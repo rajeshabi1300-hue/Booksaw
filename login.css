@@ -1,0 +1,77 @@
+.demo{
+    position: relative; top: 20px;
+}
+.m9{
+    display: flex;
+    justify-content: end;
+    position: relative; right: 30px;
+}
+#jug{
+    position: relative; right: 90px;
+}
+#ques{
+    position: relative; bottom: 5px; right: 15px;
+}
+#as{
+    position: relative; right: 15px;
+}
+.a1{
+    font-size: 50px;
+    text-decoration: none;
+}
+.a4{
+    border-radius: 200px;
+    position: relative; top: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+}
+#d5{
+    position: relative; right: 250px;
+}
+#e6{
+    background-color: white;
+}
+#e6:hover{
+    background-color: burlywood;
+}
+#j8{
+    position: relative; bottom: 5px;
+}
+#hello{
+    position: relative; right: 60px;
+}
+#are{
+    position: relative; right: 60px; bottom: 52px;
+}
+
+.a{
+    height: 50px; width: 650px;
+}
+#z9{
+    position: relative; right: 310px;
+}
+#h5{
+    position: relative; right: 240px; bottom: 24px;
+}
+#did{
+    position: relative; bottom: 64px; right: 360px;
+    display: flex;
+    justify-content: end;
+}
+.go{
+    background-color: burlywood;
+    border: 2px solid black;
+    height: 40px; width: 630px;
+    position: relative; left: 370px;
+}
+.go:hover{
+    background-color: white;
+}
+#us{
+    display: flex;
+    justify-content: center;
+}
+#hi89{
+     position: relative; bottom: 40px; left: 70pc;
+}

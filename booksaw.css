@@ -1,0 +1,180 @@
+.demo{
+    position: relative; top: 20px; 
+}
+#as{
+    position: relative;  right: 15px;
+}
+#ques{
+    position: relative; bottom: 5px; right: 15px;
+}
+.m9{
+    display: flex;
+    justify-content: end;
+    position: relative; right: 30px;
+}
+.a1{
+    font-size: 50px;
+    text-decoration: none;
+}
+#jug{
+    position: relative; right: 90px;
+}
+.a4{
+    border-radius: 200px;
+    position: relative; top: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+#c1{
+ position: relative; 
+ left:110px;
+ text-align: start; 
+}
+#go{
+    font-size: 100px;
+    position: relative; left: 100px;
+    text-align: start;
+}
+#when{
+    position: relative; left: 330px;
+}
+#d1{
+    display: inline-block; width: 200px; height: 50px;
+    border: 2px solid burlywood;
+    padding: 2px; 
+    position: relative; right: 30px;
+}
+#f2{
+    position: relative; 
+    bottom: 30px;
+    left: 85px; 
+}
+
+#how{
+    text-align: center;
+    position: relative; top: 10px;
+}
+#y9{
+    background-color: thistle; height: 300px;
+    text-align: center;
+}
+#b6{
+    position: relative; top: 100px;
+}
+#are{
+    text-align: center;
+}
+.hii:hover{
+    opacity: 1;
+    border: 5px solid black;
+}
+.hii{
+    opacity: 0;
+}
+
+#is{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#n8{
+    position: relative;
+    top: 4px;
+    right: 2px;
+}
+#n9{
+    position: relative; right: 8px;
+}
+#what{
+     display: flex;
+    justify-content: flex-end;
+}
+#where{
+    background-color: whitesmoke ; height: 800px;
+    display: flex;
+    justify-content: center;
+}
+#T6{
+    position: relative;top: 80px;
+}
+#you{
+    position: relative;
+    bottom: 27px;
+    left: 100px;
+}
+#j8{
+    display: flex;
+    justify-content: center;
+}
+#but{
+    background-color: whitesmoke; height: 400px;
+    text-align: center;
+}
+#and{
+    position: relative; top: 150px;
+}
+#make{
+    background-color: whitesmoke; height: 450px;
+    display: flex;
+    justify-content: center;
+}
+#went{
+    position: relative;
+    top: 130px;
+}
+#come{
+    position: relative;
+    top: 100px;
+}
+#y7{
+    position: relative;
+    top: 3px; left: 35px;
+}
+#y8{
+    position: relative;
+    bottom: 5px; left: 35px;
+}
+#us{
+    display: flex;
+    justify-content: center;
+}
+.m7:hover{
+    transform: scale(1.2);
+    transition: 4s ease;
+}
+#k9{
+    position: relative; left: px;
+}
+#a29{
+    position: relative;
+    bottom: 30px; left: 250px;
+}
+#t56{
+    position: relative; 
+    left: 220px; bottom: 35px;
+}
+#date{
+    display: inline-block; height: 50px; width: 250px;
+    border: 2px solid burlywood; 
+    padding: 2px;
+    position: relative; left: 550px;
+}
+#x67{
+    background-color: whitesmoke; height: 800px;
+    display: flex;
+    justify-content: center;
+}
+#just{
+    position: relative; top: 100px;
+}
+#just1{
+    position: relative; top: 280px;
+}
+#hi89{
+    position: relative;
+    bottom: 40px; left: 70pc;
+}
+
+
