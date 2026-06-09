@@ -112,13 +112,14 @@
    <div style="text-align: center;">
     <p id="d5">Or Log-In With E-mail</p>
     <label></label>
-    <input class="a" type="email" placeholder="Enter E-mail Address"><br><br>
+    <input class="a" type="email" placeholder="Enter E-mail Address" id="mail"><br><br>
+
     <label></label>
-    <input class="a" type="hidden character" placeholder="Password"><br><br>
+    <input class="a" type="hidden character" placeholder="Password" id="pass"><br><br>
     <i id="z9" class="fa-regular fa-square"></i>
     <p id="h5">Remember Me</p>
     <h6 id="did" style="color: chocolate;">Forgot Password ?</h6>
-   <a href="login.html" style="color: chocolate;"><h4 class="go">Log In</h4></a>
+   <a href="login.html" style="color: chocolate;"><h4 class="go" onclick="check(),app()">Log In</h4></a>
    </div>
 
    <br><br><hr><br>
@@ -181,6 +182,31 @@
       <i id="hi89" class="fa-brands fa-youtube"></i>  
    </div>
 
+   
+   
+   <script>
+      function check(){
+      let mail=document.getElementById("mail").value;
+      if (!mail.includes("@")){
+         alert("Invalid Mail")
+      }  
+      else {
+         alert("Valid Mail")
+      }
+      }
+
+      function app(){
+         
+         let pass=document.getElementById("pass").value;
+         
+         if(pass<=8){ 
+            alert("must contain 8 charcter")
+         }
+         else {
+            alert("valid")
+         }
+      }
+   </script>
 
 
 </boby>

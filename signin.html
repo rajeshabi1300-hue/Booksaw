@@ -115,17 +115,17 @@
     </div>
     <div>
         <label></label>
-        <input class="t" type="text" placeholder="Your Full Name"><br><br>
+        <input class="t" type="text" placeholder="Your Full Name" id="name"><br><br>
         <label></label>
-        <input class="t" type="email" placeholder="Your E-mail Address"><br><br>
+        <input class="t" type="email" placeholder="Your E-mail Address" id="mail"><br><br>
         <label></label>
-        <input class="t" type="hidden character" placeholder="Set Your Password"><br><br>
+        <input class="t" type="hidden character" placeholder="Set Your Password" id="pass"><br><br>
         <label></label>
-        <input class="t" type="hidden character" placeholder="Retype Your Password"><br><br>
+        <input class="t" type="hidden character" placeholder="Retype Your Password" id="pass"><br><br>
         <i id="z9" class="fa-regular fa-square"></i>
         <p id="h5">Remember Me</p>
         <h6 id="did" style="color: chocolate;">Forgot Password ?</h6>
-        <a href="login.html" style="color: chocolate;"><h4 class="go">Log In</h4></a>
+        <a href="login.html" style="color: chocolate;"><h4 class="go" onclick="check(),hello(),app()">Log In</h4></a>
     </div>
    </div>
 
@@ -188,6 +188,36 @@
       <i id="hi89" class="fa-brands fa-twitter"></i>
       <i id="hi89" class="fa-brands fa-youtube"></i>  
    </div>
+
+   
+   
+   <script>
+      function check (){
+         let name=document.getElementById("name").value;
+         if (name==="")alert("please enter your name");
+      } 
+      
+     function hello(){
+     let mail=document.getElementById("mail").value;
+      if (!mail.includes("@")){
+         alert("Invalid Mail")
+      }  
+      else {
+         alert("Valid Mail")
+      }
+      }
+
+      function app(){
+         let pass=document.getElementById("pass").value;
+         if(pass<=8){ 
+            alert("must contain 8 charcter")
+         }
+         else {
+            alert("valid")
+         }
+      }
+      
+   </script>
 
 
 </boby>
